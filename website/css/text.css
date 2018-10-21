@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Junicode;
+    src: url('junicode-webfont.eot');
+    src: url('junicode-webfont.eot?#iefix') format('embedded-opentype'),
+         url('junicode-webfont.woff') format('woff'),
+         url('junicode-webfont.ttf') format('truetype'),
+         url('junicode-webfont.svg#JunicodeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Junicode;
+    src: url('junicode-bolditalic-webfont.eot');
+    src: url('junicode-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('junicode-bolditalic-webfont.ttf') format('truetype'),
+         url('junicode-bolditalic-webfont.woff') format('woff'),
+         url('junicode-bolditalic-webfont.svg#JunicodeBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: Junicode, serif;
+}

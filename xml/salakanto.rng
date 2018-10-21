@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element name="salakanto" xmlns="http://relaxng.org/ns/structure/1.0">
+  <element name="names">
+    <zeroOrMore>
+      <element name="name">
+        <interleave>
+          <element name="title">
+            <text/>
+          </element>
+          <element name="text">
+            <text/>
+          </element>
+          <element name="index_coverage">
+            <text/>
+          </element>
+          <element name="other_coverage">
+            <text/>
+          </element>
+          <element name="secondary">
+            <text/>
+          </element>
+          <element name="notes">
+            <text/>
+          </element>
+          <element name="created">
+            <text/>
+          </element>
+          <element name="updated">
+            <text/>
+          </element>
+          <element name="instances">
+            <zeroOrMore>
+              <element name="instance">
+                <interleave>
+                  <element name="text">
+                    <text/>
+                  </element>
+                  <element name="note">
+                    <text/>
+                  </element>
+                  <element name="ref">
+                    <text/>
+                  </element>
+                  <element name="translation">
+                    <text/>
+                  </element>
+                  <element name="etymology">
+                    <text/>
+                  </element>
+                  <element name="source_id">
+                    <text/>
+                  </element>
+                  <element name="source_elaboration">
+                    <text/>
+                  </element>
+                  <element name="updated">
+                    <text/>
+                  </element>
+                </interleave>
+              </element>
+            </zeroOrMore>
+          </element>
+        </interleave>
+      </element>
+    </zeroOrMore>
+  </element>
+  <element name="sources">
+    <zeroOrMore>
+      <element name="source">
+        <interleave>
+          <element name="source_id">
+            <text/>
+          </element>
+          <element name="abbreviation">
+            <text/>
+          </element>
+          <element name="year">
+            <text/>
+          </element>
+          <element name="text">
+            <text/>
+          </element>
+          <element name="updated">
+            <text/>
+          </element>
+        </interleave>
+      </element>
+    </zeroOrMore>
+  </element>
+</element>

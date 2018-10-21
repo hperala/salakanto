@@ -1,0 +1,110 @@
+header, footer, aside, nav, article {
+    display: block;
+}
+h1 {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: normal;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 1.5em;
+    margin-bottom: .7em;
+}
+td, th {
+	vertical-align: top;
+}
+label { 
+	clear: both; 
+	display: block;
+	font-size: small;
+}
+label.inline { 
+	clear: none; 
+	display: inline;
+}
+input[type=text], input[type=password] { 
+	font-size: large;
+	width: 100%;
+}
+input { 
+	margin-bottom: .5em; 
+}
+input[type=submit] { 
+	padding: .9em 1.1em .9em 1.1em; 
+	font-weight: bold;
+	line-height: 1; 
+	font-family: "kaffeesatz-1", "kaffeesatz-2", sans-serif; 
+}
+input[type=submit].inline-button {
+	padding: .3em;
+	font-size: small;
+	font-weight: normal;
+}
+table {
+	width: 100%;
+}
+.field-desc {
+	margin-bottom: .5em;
+}
+.field-error {
+	background-color: #ffb3b3;
+	width: 100%;
+	padding: .1em;
+	margin-bottom: .5em;
+}
+.notification {
+	background-color: #fff4b3;
+	width: 100%;
+	padding: .1em;
+	margin-bottom: .5em;
+}
+#paged-table .ref {
+	font-size: small;
+}
+#paged-table table {
+	width: 100%;
+}
+#paged-table th {
+	text-align: left;
+}
+.pages-nav {
+	text-align: right;
+	padding: .3em;
+}
+th.button-col {
+	width: 4em;
+}
+td.edit-cell {
+	text-align: right;
+	width: 4em;
+}
+i.el {
+	font-weight: bold;
+	font-style: italic;
+}
+.nameinfo th {
+	font-weight: normal;
+	text-align: right;
+	width: 50%;
+}
+.translations p {
+    margin-left: 4em;
+    text-indent: -4em;
+}
+a.nav-link, span.nav-link-sel {
+	margin: 0;
+	padding: .1em .3em .1em .3em;
+	border: solid 1px #909090;
+}
+a.nav-link {	
+	background: #ffffff;
+}
+span.nav-link-sel {
+	background: #d0d0d0;
+}
+a.nav-link:link { text-decoration: none; }
+a.nav-link:visited { text-decoration: none; }
+a.nav-link:active { text-decoration: none; }
+a.nav-link:hover { text-decoration: none; background: #d0d0d0; }

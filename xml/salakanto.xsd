@@ -1,0 +1,71 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+        Database export/import file for Salakanto.
+        </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:element name="salakanto" type="salakanto_t"/>
+
+    <xsd:complexType name="salakanto_t">
+        <xsd:sequence>
+            <xsd:element name="names" type="names_t"/>
+            <xsd:element name="sources" type="sources_t"/>
+        </xsd:sequence>
+    </xsd:complexType>
+ 
+    <xsd:complexType name="names_t">
+        <xsd:sequence>
+            <xsd:element name="name" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="title" type="xsd:string"/>
+                        <xsd:element name="text" type="xsd:string"/>
+                        <xsd:element name="index_coverage" type="xsd:string"/>
+                        <xsd:element name="other_coverage" type="xsd:string"/>
+                        <xsd:element name="secondary" type="xsd:string"/>
+                        <xsd:element name="notes" type="xsd:string"/>
+                        <xsd:element name="created" type="xsd:string"/>
+                        <xsd:element name="updated" type="xsd:string"/>
+                        <xsd:element name="instances" type="instances_t"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+ 
+    <xsd:complexType name="instances_t">
+        <xsd:sequence>
+            <xsd:element name="instance" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="text" type="xsd:string"/>
+                        <xsd:element name="note" type="xsd:string"/>
+                        <xsd:element name="ref" type="xsd:string"/>
+                        <xsd:element name="translation" type="xsd:string"/>
+                        <xsd:element name="etymology" type="xsd:string"/>
+                        <xsd:element name="source_id" type="xsd:string"/>
+                        <xsd:element name="source_elaboration" type="xsd:string"/>
+                        <xsd:element name="updated" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="sources_t">
+        <xsd:sequence>
+            <xsd:element name="source" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="source_id" type="xsd:string"/>
+                        <xsd:element name="abbreviation" type="xsd:string"/>
+                        <xsd:element name="year" type="xsd:string"/>
+                        <xsd:element name="text" type="xsd:string"/>
+                        <xsd:element name="updated" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

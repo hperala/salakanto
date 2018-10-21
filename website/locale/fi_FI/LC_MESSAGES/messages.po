@@ -1,0 +1,490 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Salakanto\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-19 16:11+0200\n"
+"PO-Revision-Date: 2018-10-19 16:16+0200\n"
+"Last-Translator: Harri Perälä <harri.perala@iki.fi>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../login.php:58
+msgid "The root creation password is incorrect."
+msgstr "Root-tunnuksen luontisalasana ei kelpaa."
+
+#: ../../../help.php:12
+msgid "Using Salakanto"
+msgstr "Salakannon käyttö"
+
+#: ../../../help.php:13 ../../../include/template/header.php:11
+msgid "Help"
+msgstr "Ohje"
+
+#: ../../../include/view/MainView.php:11
+#: ../../../include/template/header.php:3
+msgid "Salakanto"
+msgstr "Salakanto"
+
+#: ../../../include/view/MainView.php:12
+msgid "Main View"
+msgstr "Tervetuloa Salakantoon"
+
+#: ../../../include/view/SourceView.php:38
+msgid "Editing source"
+msgstr "Lähteen muokkaus"
+
+#: ../../../include/view/SourceView.php:40
+#: ../../../include/view/NameView.php:39
+#, php-format
+msgid "Editing %s"
+msgstr "Muokataan kohdetta %s"
+
+#: ../../../include/view/SourceView.php:44
+#: ../../../include/view/SourceView.php:45
+msgid "New source"
+msgstr "Uusi lähde"
+
+#: ../../../include/view/SourcesView.php:13
+#: ../../../include/template/header.php:10
+msgid "Sources"
+msgstr "Lähteet"
+
+#: ../../../include/view/AdminView.php:25
+#: ../../../include/view/AdminView.php:26
+msgid "Site administration"
+msgstr "Sivuston ylläpito"
+
+#: ../../../include/view/NamesView.php:16
+msgid "All names"
+msgstr "Kaikki nimet"
+
+#: ../../../include/view/NamesView.php:17
+msgid "All Names"
+msgstr "Kaikki nimet"
+
+#: ../../../include/view/AccountView.php:19
+msgid "User account"
+msgstr "Käyttäjätunnus"
+
+#: ../../../include/view/AccountView.php:20
+msgid "Account details"
+msgstr "Käyttäjätunnuksen tiedot"
+
+#: ../../../include/view/TranslationsView.php:13
+#: ../../../include/view/TranslationsView.php:14
+msgid "Forms with explicit translation"
+msgstr "Käännöksellä varustetut muodot"
+
+#: ../../../include/view/ViewBase.php:46
+#, php-format
+msgid "%s title"
+msgstr "%s – Salakanto"
+
+#: ../../../include/view/LoginView.php:35
+msgid "Login"
+msgstr "Kirjaudu sisään"
+
+#: ../../../include/view/LoginView.php:36
+#: ../../../include/template/header.php:28
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: ../../../include/view/LoginView.php:42
+#: ../../../include/view/LoginView.php:43
+msgid "Sign up"
+msgstr "Luo käyttäjätunnus"
+
+#: ../../../include/model/Importer.php:15
+#, php-format
+msgid "Imported %d names (%d instances) and %d sources."
+msgstr "Tuotiin %d nimeä (%d instanssia) ja %d lähdettä."
+
+#: ../../../include/model/Importer.php:16
+#, php-format
+msgid "Importing failed: %s"
+msgstr "Tuonti epäonnistui: %s"
+
+#: ../../../include/model/User.php:108
+msgid "The username or password is incorrect."
+msgstr "Käyttäjänimi tai salasana on virheellinen."
+
+#: ../../../include/template/login_view_signup.php:10
+msgid "Root user does not exist and must be created next."
+msgstr "Root-tunnusta ei ole olemassa. Se on luotava seuraavaksi."
+
+#: ../../../include/template/login_view_signup.php:18
+#: ../../../include/template/login_view.php:14
+msgid "Username:"
+msgstr "Käyttäjätunnus:"
+
+#: ../../../include/template/login_view_signup.php:20
+#: ../../../include/template/login_view.php:16
+msgid "Password:"
+msgstr "Salasana:"
+
+#: ../../../include/template/login_view_signup.php:28
+msgid "Create root account"
+msgstr "Luo root-tunnus"
+
+#: ../../../include/template/login_view_signup.php:29
+msgid "Enter root creation password:"
+msgstr "Anna root-tunnuksen luontisalasana:"
+
+#: ../../../include/template/header.php:8
+msgid "Names"
+msgstr "Nimet"
+
+#: ../../../include/template/header.php:9
+#: ../../../include/template/names_view.php:48
+#: ../../../include/template/names_view.php:50
+msgid "Translations"
+msgstr "Käännöksiä"
+
+#: ../../../include/template/header.php:21
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: ../../../include/template/header.php:25
+msgid "Create account"
+msgstr "Luo tunnus"
+
+#: ../../../include/template/sources_view.php:7
+#: ../../../include/template/translations_view.php:8
+#: ../../../include/template/names_view.php:7
+#: ../../../include/template/name_view_edit.php:52
+#: ../../../include/template/instance_view.php:7
+#: ../../../include/template/name_view.php:20
+#: ../../../include/template/source_view.php:7
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: ../../../include/template/sources_view.php:8
+#: ../../../include/template/admin_view.php:22
+#: ../../../include/template/names_view.php:8
+#: ../../../include/template/name_view_edit.php:54
+msgid "Delete"
+msgstr "Poista"
+
+#: ../../../include/template/account_view.php:9
+msgid "Change password"
+msgstr "Vaihda salasana"
+
+#: ../../../include/template/account_view.php:13
+msgid "Old password:"
+msgstr "Vanha salasana:"
+
+#: ../../../include/template/account_view.php:16
+msgid "New password:"
+msgstr "Uusi salasana:"
+
+#: ../../../include/template/account_view.php:19
+msgid "Enter new password again:"
+msgstr "Uusi salasana uudestaan:"
+
+#: ../../../include/template/account_view.php:26
+msgid "Other tasks"
+msgstr "Muut tehtävät"
+
+#: ../../../include/template/account_view.php:29
+msgid "Administration"
+msgstr "Ylläpito"
+
+#: ../../../include/template/admin_view.php:7
+msgid "Import data"
+msgstr "Tuo tietoja"
+
+#: ../../../include/template/admin_view.php:11
+msgid "Filename:"
+msgstr "Tiedostonimi:"
+
+#: ../../../include/template/admin_view.php:17
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: ../../../include/template/admin_view.php:22
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: ../../../include/template/admin_view.php:22
+msgid "Created"
+msgstr "Luotu"
+
+#: ../../../include/template/admin_view.php:22
+msgid "Enabled"
+msgstr "Aktivoitu"
+
+#: ../../../include/template/source_view_edit.php:7
+msgid "Abbreviation:"
+msgstr "Lyhenne:"
+
+#: ../../../include/template/source_view_edit.php:9
+msgid "Max. 50 characters."
+msgstr "Enintään 50 merkkiä."
+
+#: ../../../include/template/source_view_edit.php:12
+msgid "Year:"
+msgstr "Vuosi:"
+
+#: ../../../include/template/source_view_edit.php:14
+msgid "Approximate year of writing. Numbers only. Used for sorting purposes."
+msgstr ""
+"Arvioitu kirjoitusvuosi. Käytä ainoastaan numeroita. Arvoa käytetään "
+"lajitteluun."
+
+#: ../../../include/template/source_view_edit.php:17
+msgid "Text:"
+msgstr "Teksti:"
+
+#: ../../../include/template/source_view_edit.php:21
+msgid ""
+"Enough information to identify the document, e.g. full name, where published."
+msgstr ""
+"Dokumentin yksilöivät tiedot, esimerkiksi koko nimi ja teos, jossa se on "
+"julkaistu."
+
+#: ../../../include/template/Formatting.php:11
+msgid "Next"
+msgstr "Seuraava"
+
+#: ../../../include/template/Formatting.php:13
+msgid "Previous"
+msgstr "Edellinen"
+
+#: ../../../include/template/names_view.php:38
+#: ../../../include/template/name_view_edit.php:46
+msgid "Add"
+msgstr "Lisää"
+
+#: ../../../include/template/names_view.php:48
+#: ../../../include/template/names_view.php:50
+msgid "Name"
+msgstr "Nimi"
+
+#: ../../../include/template/names_view.php:48
+#: ../../../include/template/names_view.php:50
+msgid "Etymological notes"
+msgstr "Etymologisia huomautuksia"
+
+#: ../../../include/template/name_view_edit.php:7
+msgid "Title:"
+msgstr "Otsikko:"
+
+#: ../../../include/template/name_view_edit.php:9
+msgid "A typical, well known form of the name."
+msgstr "Jokin nimen tunnettu ja yleinen muoto."
+
+#: ../../../include/template/name_view_edit.php:12
+#: ../../../include/template/name_view.php:32
+msgid "Description:"
+msgstr "Kuvaus:"
+
+#: ../../../include/template/name_view_edit.php:14
+msgid "Full description of the scope of this entry, if needed."
+msgstr ""
+"Tarkempi kuvaus siitä, mitä tähän hakusana-artikkeliin sisältyy (jos "
+"tarpeen)."
+
+#: ../../../include/template/name_view_edit.php:17
+msgid "Indexes covered:"
+msgstr "Katetut hakemistot:"
+
+#: ../../../include/template/name_view_edit.php:19
+msgid ""
+"Sources that have been covered by checking every occurrence of the name "
+"given in the index of that source. A list of abbreviations."
+msgstr ""
+"Lähteet, jotka on käsitelty tarkistamalla jokainen nimen esiintymä kyseisen "
+"lähteen hakemistossa. Luettelo lyhenteitä."
+
+#: ../../../include/template/name_view_edit.php:22
+msgid "Other covered sources:"
+msgstr "Muut katetut lähteet:"
+
+#: ../../../include/template/name_view_edit.php:24
+msgid ""
+"Information about other sources that have been processed using some method."
+msgstr "Tiedot muista lähteistä, jotka on käyty läpi jollakin menetelmällä."
+
+#: ../../../include/template/name_view_edit.php:27
+msgid "Secondary sources:"
+msgstr "Sekundäärilähteet:"
+
+#: ../../../include/template/name_view_edit.php:31
+msgid ""
+"Annotated bibliography of material relevant to this name. Markup allowed, "
+"enclose text in [p][/p]."
+msgstr ""
+"Kommentoitu luettelo tähän nimeen liittyvästä kirjallisuudesta. Merkkaus "
+"sallittu, ympäröi teksti [p][/p]-tageilla."
+
+#: ../../../include/template/name_view_edit.php:34
+msgid "Notes:"
+msgstr "Huomautuksia:"
+
+#: ../../../include/template/name_view_edit.php:38
+msgid ""
+"Other information about this name. For example: first appearance, "
+"normalization of spelling in some source. Markup allowed, enclose text in [p]"
+"[/p]."
+msgstr ""
+"Muuta nimeen liittyvää tietoa. Esimerkkejä: ensiesiintymä, kirjoitusasun "
+"normalisointi jossakin lähteessä. Merkkaus sallittu, ympäröi teksti [p][/p]-"
+"tageilla."
+
+#: ../../../include/template/name_view_edit.php:44
+msgid "Instances:"
+msgstr "Esiintymät:"
+
+#: ../../../include/template/name_view_edit.php:49
+msgid "Instance"
+msgstr "Esiintymä"
+
+#: ../../../include/template/help_view.php:5
+msgid "help-1"
+msgstr "TBA"
+
+#: ../../../include/template/instance_view.php:14
+#: ../../../include/template/instance_view_edit.php:7
+msgid "The form:"
+msgstr "Muoto:"
+
+#: ../../../include/template/instance_view.php:16
+#: ../../../include/template/instance_view_edit.php:12
+msgid "Source:"
+msgstr "Lähde:"
+
+#: ../../../include/template/instance_view.php:18
+#: ../../../include/template/instance_view_edit.php:29
+msgid "Source details:"
+msgstr "Lähteen tarkennus:"
+
+#: ../../../include/template/instance_view.php:20
+#: ../../../include/template/instance_view_edit.php:34
+msgid "Reference:"
+msgstr "Viite:"
+
+#: ../../../include/template/instance_view.php:22
+#: ../../../include/template/instance_view_edit.php:39
+msgid "Note:"
+msgstr "Huomautus:"
+
+#: ../../../include/template/instance_view.php:24
+#: ../../../include/template/instance_view_edit.php:44
+msgid "Translation:"
+msgstr "Käännös:"
+
+#: ../../../include/template/instance_view.php:26
+#: ../../../include/template/instance_view_edit.php:49
+msgid "Etymology:"
+msgstr "Etymologia:"
+
+#: ../../../include/template/name_view.php:37
+msgid ""
+"The following sources have been covered by checking every reference in the "
+"index:"
+msgstr ""
+"Lähteet, joista on tarkistettu jokainen hakemistossa mainittu nimen "
+"esiintymä:"
+
+#: ../../../include/template/name_view.php:42
+msgid "The following sources have been covered by other means:"
+msgstr "Lähteet, jotka on käyty läpi jollain muulla menetelmällä:"
+
+#: ../../../include/template/name_view.php:52
+msgid "Short list"
+msgstr "Lyhyt luettelo"
+
+#: ../../../include/template/name_view.php:55
+msgid "Full details"
+msgstr "Kaikki tiedot"
+
+#: ../../../include/template/name_view.php:88
+msgid "Translations and etymological notes"
+msgstr "Käännökset ja etymologiset selitykset"
+
+#: ../../../include/template/name_view.php:112
+msgid "Notes"
+msgstr "Huomautuksia"
+
+#: ../../../include/template/name_view.php:117
+msgid "Secondary sources"
+msgstr "Sekundäärilähteet"
+
+#: ../../../include/template/main_view.php:5
+msgid "Hello, world!"
+msgstr ""
+"Tämä on Salakanto-sovelluksen kehitysversio, josta puuttuu toistaiseksi "
+"monia ominaisuuksia. Salakanto on yksinkertainen nimivarianttien ja "
+"käännösten tietokanta. Se on nimetty Gondolinin haltia Salgantin (qenyaksi "
+"Salakanto) mukaan."
+
+#: ../../../include/template/instance_view_edit.php:9
+msgid "Single form only, no extra notes."
+msgstr "Vain yksi muoto, ei lisähuomautuksia."
+
+#: ../../../include/template/instance_view_edit.php:26
+msgid "The document where this form appears."
+msgstr "Dokumentti, jossa muoto esiintyy."
+
+#: ../../../include/template/instance_view_edit.php:31
+msgid "Details of the source, if the selected label is very generic."
+msgstr ""
+"Tarkemmat tiedot lähteestä, jos valittu nimike on hyvin yleisluontoinen."
+
+#: ../../../include/template/instance_view_edit.php:36
+msgid "Page reference."
+msgstr "Sivuviite."
+
+#: ../../../include/template/instance_view_edit.php:41
+msgid "A note concerning this particular instance."
+msgstr "Tätä esiintymää koskeva huomautus."
+
+#: ../../../include/template/instance_view_edit.php:46
+msgid "Leave empty if no explicit translation is given for this instance."
+msgstr "Jätä tyhjäksi, jos tätä esiintymää ei ole suoraan käännetty."
+
+#: ../../../include/template/instance_view_edit.php:50
+msgid "e.g. &lt; [w]form[/w] ‘transl.’ ([r]ROOT-[/r])"
+msgstr "esim. &lt; [w]muoto[/w] ‘käännös’ ([r]JUURI-[/r])"
+
+#: ../../../include/template/instance_view_edit.php:53
+msgid ""
+"A summary of etymological notes associated with this instance. Markup "
+"allowed."
+msgstr ""
+"Yhteenveto tähän esiintymään liittyvistä etymologisista muistiinpanoista. "
+"Merkkaus sallittu."
+
+#~ msgid "aaa %s"
+#~ msgstr "Käännetty %s"
+
+#~ msgid "Main View - Salakanto"
+#~ msgstr "Salakanto"
+
+#, fuzzy
+#~ msgid "Sources - Salakanto"
+#~ msgstr "Salakannon käyttö"
+
+#, fuzzy
+#~ msgid " - Salakanto"
+#~ msgstr "Salakannon käyttö"
+
+#, fuzzy
+#~ msgid "Login - Salakanto"
+#~ msgstr "Salakannon käyttö"
+
+#, fuzzy
+#~ msgid "Sign up - Salakanto"
+#~ msgstr "Salakannon käyttö"
+
+#, fuzzy
+#~ msgid "%s – Salakanto"
+#~ msgstr "Salakannon käyttö"

@@ -1,0 +1,2 @@
+trang salakanto.rnc salakanto.rng
+xmllint --noout --relaxng salakanto.rng salakanto.xml

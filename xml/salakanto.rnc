@@ -1,0 +1,35 @@
+element salakanto {
+    element names {
+        element name {
+            element title { text }
+            & element text { text }
+            & element index_coverage { text }
+            & element other_coverage { text }
+            & element secondary { text }
+            & element notes { text }
+            & element created { text }
+            & element updated { text }
+            & element instances {
+                element instance {
+                    element text { text }
+                    & element note { text }
+                    & element ref { text }
+                    & element translation { text }
+                    & element etymology { text }
+                    & element source_id { text }
+                    & element source_elaboration { text }
+                    & element updated { text }
+                }*
+            }
+        }*
+    },
+    element sources {
+        element source {
+            element source_id { text }
+            & element abbreviation { text }
+            & element year { text }
+            & element text { text }
+            & element updated { text }
+        }*
+    }
+}
