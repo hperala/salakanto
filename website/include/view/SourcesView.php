@@ -11,7 +11,7 @@ class SourcesView extends ViewBase {
 
     function showNormal($template) {
         $this->setTitleParam(_('Sources'));
-        $this->setParam('heading', 'Sources');
+        $this->setParam('heading', _('Sources'));
         $this->setParam('content', $template);
         $this->setParam('selected-sources', Text::CLASS_SELECTED);
         $this->format();

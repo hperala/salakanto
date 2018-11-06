@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Salakanto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-19 16:10+0200\n"
-"PO-Revision-Date: 2018-10-21 17:53+0200\n"
+"POT-Creation-Date: 2018-11-06 14:49+0200\n"
+"PO-Revision-Date: 2018-11-06 14:49+0200\n"
 "Last-Translator: Harri Perälä <harri.perala@iki.fi>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -42,7 +42,7 @@ msgid "Editing source"
 msgstr ""
 
 #: ../../../include/view/SourceView.php:40
-#: ../../../include/view/NameView.php:39
+#: ../../../include/view/NameView.php:41
 #, php-format
 msgid "Editing %s"
 msgstr ""
@@ -53,6 +53,7 @@ msgid "New source"
 msgstr ""
 
 #: ../../../include/view/SourcesView.php:13
+#: ../../../include/view/SourcesView.php:14
 #: ../../../include/template/header.php:10
 msgid "Sources"
 msgstr ""
@@ -381,6 +382,10 @@ msgstr ""
 
 #: ../../../include/template/name_view.php:42
 msgid "The following sources have been covered by other means:"
+msgstr ""
+
+#: ../../../include/template/name_view.php:50
+msgid "Forms"
 msgstr ""
 
 #: ../../../include/template/name_view.php:52

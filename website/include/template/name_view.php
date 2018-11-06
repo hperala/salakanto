@@ -47,7 +47,7 @@ if ($this->param('text')
 
 ?>
 
-<h2>Forms</h2>
+<h2><?php echo _('Forms'); ?></h2>
 <span id="button-short" class="nav-link-sel">
 <?php echo _('Short list'); ?>
 </span>
