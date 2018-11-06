@@ -95,7 +95,7 @@ ul#user li a {
     
     font-size: smaller;
     
-    width: 9em; /*7em;*/
+    width: 9em;
     height: 2em;
     line-height: 2em;
     text-align: center;
@@ -109,6 +109,8 @@ ul#user li.selected a {
 /* End from */
 h1 {
     margin-left: .2em;
+    margin-top: 1.5em;
+    clear: both;
 }
 #content {
     margin: .5em;
